@@ -1,0 +1,21 @@
+{
+    "name": "wookie-monster/image-resizer",
+    "description": "Image Resizer for Laravel",
+    "authors": [
+        {
+            "name": "R Franks",
+            "email": "ru.franks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "WookieMonster\\ImageResizer": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "GPL-3.0+"
+}
