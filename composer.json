@@ -1,7 +1,11 @@
 {
-    "name": "wookie-monster/image-resizer",
+    "name": "douyasi/image-resizer",
     "description": "Image Resizer for Laravel",
     "authors": [
+       {
+            "name": "raoyc",
+            "email": "raoyc2009@gmail.com"
+        },
         {
             "name": "R Franks",
             "email": "ru.franks@gmail.com"
