@@ -1,13 +1,13 @@
 # Simple Image Resizer for Laravel
 
->    Fork from https://github.com/WookieMonster/Laravel-Image-Resizer
+>    Fork from https://github.com/douyasi/Laravel-Image-Resizer
 
 
 composer require code
 
 ```json
 "require": {
-		"douyasi/image-resizer" : "dev-master"
+		"reviewpush/image-resizer" : "~1.0.*"
 	}
 ```
 
