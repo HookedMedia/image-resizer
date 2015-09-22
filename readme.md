@@ -7,7 +7,7 @@ composer require code
 
 ```json
 "require": {
-		"reviewpush/image-resizer" : "~1.0.*"
+		"reviewpush/image-resizer" : "^1.0.*"
 	}
 ```
 
