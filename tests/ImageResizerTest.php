@@ -1,6 +1,6 @@
 <?php
 
-use WookieMonster\ImageResizer\ImageResizer;
+use ReviewPush\ImageResizer\ImageResizer;
 
 class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	
@@ -26,7 +26,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\InvalidImageQualityException
+     * @expectedException ReviewPush\ImageResizer\Exception\InvalidImageQualityException
      */
 	public function testConstructorWithInvalidQuality()
 	{
@@ -34,7 +34,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\InvalidImageInputTypeException
+     * @expectedException ReviewPush\ImageResizer\Exception\InvalidImageInputTypeException
      */
 	public function testInvalidImageFormat()
 	{
@@ -60,7 +60,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\SelectionOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\SelectionOutOfBoundsException
      */
 	public function testCroppingOutOfBounds()
 	{
@@ -119,7 +119,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\InvalidAngleArgumentException
+     * @expectedException ReviewPush\ImageResizer\Exception\InvalidAngleArgumentException
      */
 	public function testRotatedAtInvalidAngle()
 	{
@@ -128,7 +128,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\ContrastOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\ContrastOutOfBoundsException
      */
 	public function testContrastOutOfBounds()
 	{
@@ -137,7 +137,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\BrightnessOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\BrightnessOutOfBoundsException
      */
 	public function testBrightnssOutOfBounds()
 	{
@@ -146,7 +146,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\SmoothingOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\SmoothingOutOfBoundsException
      */
 	public function testSmoothingOutOfBounds()
 	{
@@ -155,7 +155,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\GrayscaleOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\GrayscaleOutOfBoundsException
      */
 	public function testGreyscaleOutOfBounds()
 	{
@@ -164,7 +164,7 @@ class ImageResizerTest extends PHPUnit_Framework_Testcase {
 	}
 	
 	/**
-     * @expectedException WookieMonster\ImageResizer\Exception\GaussianOutOfBoundsException
+     * @expectedException ReviewPush\ImageResizer\Exception\GaussianOutOfBoundsException
      */
 	public function testGaussianOutOfBounds()
 	{

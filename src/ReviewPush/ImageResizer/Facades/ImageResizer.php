@@ -1,4 +1,6 @@
-<?php namespace WookieMonster\ImageResizer\Facades;
+<?php
+
+namespace ReviewPush\ImageResizer\Facades;
  
 use Illuminate\Support\Facades\Facade;
  
@@ -13,5 +15,4 @@ class ImageResizer extends Facade {
 	{
 		return 'imageresizer';
 	}
-
 }

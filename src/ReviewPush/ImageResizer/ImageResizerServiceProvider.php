@@ -1,4 +1,4 @@
-<?php namespace WookieMonster\ImageResizer;
+<?php namespace ReviewPush\ImageResizer;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -34,7 +34,7 @@ class ImageResizerServiceProvider extends ServiceProvider {
 		
 		$this->app->booting(function(){
 			$loader = \Illuminate\Foundation\AliasLoader::getInstance();
-			$loader->alias('ImageResizer', 'WookieMonster\ImageResizer\Facades\ImageResizer');
+			$loader->alias('ImageResizer', 'ReviewPush\ImageResizer\Facades\ImageResizer');
 		});
 	}
 
@@ -47,5 +47,4 @@ class ImageResizerServiceProvider extends ServiceProvider {
 	{
 		return array('imageresizer');
 	}
-
 }

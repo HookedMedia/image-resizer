@@ -1,4 +1,6 @@
-<?php namespace WookieMonster\ImageResizer;
+<?php
+
+namespace ReviewPush\ImageResizer;
 
 class ImageResizer {
 

@@ -1,4 +1,4 @@
-<?php namespace WookieMonster\ImageResizer\Exception;
+<?php namespace ReviewPush\ImageResizer\Exception;
 
 class SmoothingOutOfBoundsException extends \OutOfBoundsException {
 	
